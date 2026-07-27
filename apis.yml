@@ -1,7 +1,24 @@
 aid: getlinks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getlinks.png
 name: Getlinks
-description: Getlinks is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'GetLinks is an AI-powered hiring operating system for Southeast Asia, operating
+  across Thailand, Singapore, and Vietnam. For employers it provides job posting, AI-driven
+  candidate screening, structured interview tooling with video/audio scoring, and recruiter
+  consulting services; for job seekers it offers job search (14,200+ active jobs in Thailand),
+  salary intelligence sourced from real placements, AI CV readiness analysis, and mock interview
+  training. Backed by 500 Global. No public developer API, SDK, or developer portal was found;
+  the platform is an end-user recruitment and career product.'
 url: https://raw.githubusercontent.com/api-evangelist/getlinks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Recruitment
+- Hiring
+- Talent
+- Jobs
+- Human Resources
+- Artificial Intelligence
+- Southeast Asia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/getlinks-domain-security.yml
 - type: Website
   url: https://getlinks.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
